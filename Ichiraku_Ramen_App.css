@@ -1,0 +1,86 @@
+body {
+  background-image: url('../IMG/Ichiraku_Ramen_Banner.jpg');
+  background-size: 4% 100%;
+}
+
+.Header { grid-area: header; }
+.Menu { grid-area: menu }
+.Left { grid-area: left; }
+.Right { grid-area: right; }
+.Footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header menu menu menu'
+    'left left left right right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 0px;
+  background-color: #2196F3;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.grid-container > .Header {
+  font-family: 'Permanent Marker', cursive;
+  background-color: white;
+  background-size: 825px 400px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container > .Menu {
+  font-family: 'Permanent Marker', cursive;
+  background-color: white;
+  text-align: right;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.Home {
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: black;
+}
+.Order {
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: black;
+}
+.Contact{
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 120px;
+  color: black;
+}
+.grid-container > .Left {
+  font-family: 'Permanent Marker', cursive;
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container > .Right {
+  font-family: 'Permanent Marker', cursive;
+  background-color: white;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 17px;
+}
+.Text {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.grid-container > .Footer {
+  font-family: 'Permanent Marker', cursive;
+  background-color: white;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 30px;
+  color: red;
+}
+.Footer_Img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
