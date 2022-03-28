@@ -1,3 +1,5 @@
+# Notice: Deze repository is van mijn vorige opleiding!
+
 # Horeca App
 
 In de stad komt een nieuw Café-Bar waar je lekker met je vrienden drankjes en ook lekkere hapjes kunt bestellen. De naam van de Café-Bar bedenk je zelf. De Café-Bar vraagt aan jou om een JS applicatie te maken zodat ze gemakkelijk de bestellingen kunnen bijhouden en uiteraard moet je ook de rekening kunnen opvragen.
